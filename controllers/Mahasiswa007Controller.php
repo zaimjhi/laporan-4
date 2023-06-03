@@ -20,7 +20,7 @@ class Mahasiswa007Controller extends \yii\web\Controller
     public function actionCreate()
     {
         $mahasiswa007 = new Mahasiswa007();
-        $mahasiswa007->Nim007 = '60200121007' . rand(100,999);
+        $mahasiswa007->Nim007 = '60200121007'.'-' . rand(1,100);
         $mahasiswa007->Nama007 = 'zaim';
         $mahasiswa007->Kelas007 = 'D';
         $mahasiswa007->status007 = 'baru';
