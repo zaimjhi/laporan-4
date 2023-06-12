@@ -20,12 +20,26 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'css/site.css',
+        'template-tugas/vendor/aos/aos.css',
+        'template-tugas/css/style.css',
+        'template-tugas/vendor/bootstrap/css/bootstrap.min.css',
+        'template-tugas/vendor/bootstrap-icons/bootstrap-icons.css',
+        'template-tugas/vendor/glightbox/css/glightbox.min.css',
+        'template-tugas/vendor/swiper/swiper-bundle.min.css',
+        
     ];
     public $js = [
+        'template-tugas/vendor/purecounter/purecounter_vanilla.js>',
+        'template-tugas/vendor/aos/aos.js',
+        'template-tugas/vendor/bootstrap/js/bootstrap.bundle.min.js',
+        'template-tugas/vendor/glightbox/js/glightbox.min.js',
+        'template-tugas/vendor/isotope-layout/isotope.pkgd.min.js',
+        'template-tugas/vendor/swiper/swiper-bundle.min.js',
+        'template-tugas/vendor/php-email-form/validate.js',
+        'template-tugas/js/main.js',
+
     ];
     public $depends = [
-        'yii\web\YiiAsset',
-        'yii\bootstrap5\BootstrapAsset'
+        
     ];
 }
