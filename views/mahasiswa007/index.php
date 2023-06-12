@@ -20,7 +20,7 @@ use yii\helpers\url;
           <li><a class="nav-link scrollto" href="<?= Url::to(['site/index#services']) ?>">Services</a></li>
           <li><a class="nav-link scrollto" href="<?= Url::to(['site/index#portfolio']) ?>">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="<?= Url::to(['site/index#team']) ?>">Team</a></li>
-            <li><a class="nav-link scrollto" href="<?= Url::to(['mahasiswa007/index#maha']) ?>">Mahasiswa</a></li>
+            <li><a class="nav-link scrollto" href="<?= Url::to(['mahasiswa007/index#mahasi']) ?>">Mahasiswa</a></li>
           <li><a class="nav-link scrollto" href="<?= Url::to(['site/index#footer']) ?>">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -38,7 +38,7 @@ use yii\helpers\url;
 <section id="hero" class="clearfix">
     <div class="container">
         <div class="">
-          <section id="maha">
+          <section id="mahasi">
         <?= Html::a('Tambah Mahasiswa', ['create'], ['class' => 'btn btn-primary']); ?>
             <?= GridView::widget([
                 'dataProvider' => $dataProvider,
